@@ -3,6 +3,7 @@ local options = {
   ensure_installed = {
     "ts_ls",
     "angularls",
+    "svelte",
     "bashls",
     "clangd",
     "cssls",
