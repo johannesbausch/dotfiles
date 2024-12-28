@@ -1,0 +1,28 @@
+# Credential helper settings for GitHub.
+[credential "https://github.com"]
+    # The first 'helper' setting is left empty (could be a default credential helper).
+    helper = 
+    # The second 'helper' setting specifies using GitHub CLI's authentication to handle credentials.
+    # This uses the GitHub CLI to automatically authenticate and handle Git credentials.
+    helper = !/usr/bin/gh auth git-credential
+
+# Credential helper settings for GitHub Gists.
+[credential "https://gist.github.com"]
+    # The first 'helper' setting is left empty (could be a default credential helper).
+    helper = 
+    # The second 'helper' setting specifies using GitHub CLI's authentication to handle credentials for Gists.
+    helper = !/usr/bin/gh auth git-credential
+
+# User information to associate commits with your identity.
+[user]
+    # Your name, which will appear in the commit logs.
+    name = Name
+    # Your email, which will also be associated with your commits.
+    email = your@email.com
+    # GPG signing key to sign commits (removed for security reasons).
+    signingkey = # removed due to security reasons
+
+# Pull-related settings.
+[pull]
+    # Disables rebase on 'git pull' by default, meaning merge commits will be used instead of rebasing.
+    rebase = false

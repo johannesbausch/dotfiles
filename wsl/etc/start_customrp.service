@@ -1,0 +1,11 @@
+[Unit]
+Description=Start CustomRP
+After=network.target
+
+[Service]
+ExecStart="/etc/profile.d/start_customrp.sh"
+Restart=on-failure
+User=root
+
+[Install]
+WantedBy=default.target

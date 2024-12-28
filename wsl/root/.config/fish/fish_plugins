@@ -1,0 +1,8 @@
+# Install the plugin manager for Fish shell
+# Fisher allows you to easily manage plugins for Fish shell
+fish_plugins jorgebucaran/fisher
+
+# Install the Tide prompt theme (version 6)
+# Tide provides an attractive prompt with useful information such as git status, the current directory, and more
+fish_plugins ilancosman/tide@v6
+

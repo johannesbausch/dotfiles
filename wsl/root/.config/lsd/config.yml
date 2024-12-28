@@ -1,0 +1,43 @@
+# Classic flag is set to false, meaning the output will not follow the classic 'ls' style.
+classic: false
+
+# Blocks specify the information to display for each item in the directory.
+blocks:
+  - permission    # Display the file or directory permissions.
+  - user          # Show the owner of the file or directory.
+  - group         # Show the group of the file or directory.
+  - size          # Display the size of the file or directory.
+  - date          # Show the date and time the file or directory was last modified.
+  - name          # Display the name of the file or directory.
+
+# Color settings.
+color:
+  when: always    # Colorization is turned on for output in this configuration.
+  theme: default  # Default color theme is used (no custom theme).
+
+# Icons settings define when icons will be shown and which theme will be used.
+icons:
+  when: always    # Icons will always be shown.
+  theme: fancy    # A fancy theme for the icons is applied.
+  separator: "  " # Separator between icons and file names is set to two spaces.
+
+# Sorting configurations.
+sorting:
+  dir-grouping: first  # Directories are grouped and displayed before files.
+  column: name         # Sorting is done based on the name column.
+
+# Layout of the directory listing.
+layout: grid             # The output layout is set to grid style.
+
+# Size units for file sizes.
+size: bytes              # File sizes will be displayed in bytes.
+
+# Whether or not to display the header (column names).
+header: true             # Display header with column names (e.g., permission, size, etc.).
+
+# Whether or not to show indicators like arrows for directories.
+indicators: true         # Show indicators for directories (e.g., arrows).
+
+# Show the total size of all files and directories in the output.
+total-size: true         # The total size of files and directories will be displayed at the end.
+

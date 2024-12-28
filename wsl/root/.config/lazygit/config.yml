@@ -1,0 +1,47 @@
+# LazyGit is a terminal-based user interface for Git that simplifies repository management and Git operations with an interactive, user-friendly interface.
+
+# Theme settings to customize the visual appearance of the interface.
+
+theme:
+  # Border color for the active panel or window, set to a light purple with bold text.
+  activeBorderColor:
+    - "#b4befe"
+    - bold
+
+  # Border color for the inactive panel or window, set to a muted blue.
+  inactiveBorderColor:
+    - "#a6adc8"
+
+  # Color for the options text, a light blue.
+  optionsTextColor:
+    - "#89b4fa"
+
+  # Background color for the selected line, set to a dark grey-blue.
+  selectedLineBgColor:
+    - "#313244"
+
+  # Background color for commits marked as cherry-picked, set to a dark grey.
+  cherryPickedCommitBgColor:
+    - "#45475a"
+
+  # Foreground color for cherry-picked commits, set to a light purple.
+  cherryPickedCommitFgColor:
+    - "#b4befe"
+
+  # Color for unstaged changes, set to a soft pink.
+  unstagedChangesColor:
+    - "#f38ba8"
+
+  # Default foreground color for the text, set to a soft light blue.
+  defaultFgColor:
+    - "#cdd6f4"
+
+  # Border color when searching is active, set to a light yellow.
+  searchingActiveBorderColor:
+    - "#f9e2af"
+
+# Author colors, which apply to the commits made by the author.
+authorColors:
+  # Default color for all authors is set to the same light purple as active border.
+  "*": "#b4befe"
+
