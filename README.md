@@ -57,6 +57,11 @@
 This documentation provides a step-by-step guide for setting up a custom development environment using NeoVim.
 <br />
 Fork this project to get started.
+<br />
+
+**Note:**
+<br />
+Because this repository is designed to guide you step by step, I've included comments for all configurations, making it easy for you to immediately see and understand their purpose.
 
 <div align="right">
   
