@@ -373,9 +373,12 @@ Now, let's take a look at some useful programs.
     <br />
     <br />
 12. **Install Git:**
-    ```
-    apt install git
-    ```
+    * ```shell
+      apt install git
+      ```
+    * ```shell
+      git config --global core.editor "nvim"
+      ```
     <br />
 13. **Install GitHub CLI:**
     ```shell
@@ -521,7 +524,16 @@ This section covers basic operations to ensure your NeoVim journey begins as smo
    Press `esc` to enter normal mode, then type `:Dbee`.
    <br />
    Now, you could configure a database, for example: `postgres://user:password@localhost:5432/mydb`.
-
+   <br />
+   <br />
+9. **Show Documentation:**
+   <br />
+   In Neovim, you can access the documentation by pressing `esc`, then typing `:h <keyword>`.
+   <br />
+   For example, if you’re working with a file property like `vim.o.title = false`, you can type `:h title` to look up its details.
+   <br />
+   Once you’re done reading, you can close the help window by pressing `CTRL + w + q`.
+   
 <div align="right">
   
   [Jump to Top](#top)
