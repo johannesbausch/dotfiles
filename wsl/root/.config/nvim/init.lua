@@ -77,6 +77,7 @@ require("lazy").setup({
 })
 
 -- Load individual LSP (Language Server Protocol) configurations
+require "lsp/svelte"
 require "lsp/angular"
 require "lsp/bash"
 require "lsp/c"
