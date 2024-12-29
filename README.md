@@ -381,13 +381,16 @@ Now, let's take a look at some useful programs.
       ```
     <br />
 13. **Install GitHub CLI:**
-    ```shell
-    apt install gh
-    ```
+    * ```shell
+      apt install gh
+      ```
+    * ```shell
+      gh auth login
+      ```
     <br />
-14. **Log In To GitHub:**
+14. **Install ripgrep:**
     ```shell
-    gh auth login
+    apt install ripgrep
     ```
 
 <div align="right">
@@ -533,7 +536,46 @@ This section covers basic operations to ensure your NeoVim journey begins as smo
    For example, if you’re working with a file property like `vim.o.title = false`, you can type `:h title` to look up its details.
    <br />
    Once you’re done reading, you can close the help window by pressing `CTRL + w + q`.
-   
+   <br />
+   <br />
+10. **Open NeoTree:**
+    <br />
+    Press `<leader>`, then type `E`.
+    <br />
+    <br />
+11. **Create a File In NeoTree:**
+    <br />
+    Navigate to a specific path, then type `a`.
+    <br />
+    <br />
+12. **Rename a File In NeoTree:**
+    <br />
+    Navigate to a specific path, then type `r`.
+    <br />
+    <br />
+13. **Delete a File In NeoTree:**
+    <br />
+    Navigate to a specific path, then type `d`.
+    <br />
+    <br />
+14. **Switch Between Open Windows:**
+    <br />
+    Press `CTRL`, then type `w`.
+    <br />
+    After that, you can use `arrow_key` to navigate to another window.
+    <br />
+    <br />
+15. **Change Window Size:**
+    <br />
+    Press `<leader>`, then type `w`.
+    <br />
+    After that, you can use `arrow_key` to resize a window.
+    <br />
+    <br />
+16. **Show Error**
+    <br />
+    Press `<leader>`, then type `l` + `e`.
+    
 <div align="right">
   
   [Jump to Top](#top)
@@ -656,10 +698,16 @@ The problem seems related to loading a specific specification.
 <br />
 <br />
 
-
 **Menu Select**
 <br />
 To select a different launch menu, press `CRTL` + `l` while in the shell.
+<br />
+<br />
+
+**Buffers**
+It's important to note that when you edit a file from the outside (e.g., git update) and have a buffer open, it won't be updated in the buffer. 
+<br />
+So, if you save the open buffer, any changes made from the outside will be overwritten.
 
 <div align="right">
   
