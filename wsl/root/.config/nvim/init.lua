@@ -14,6 +14,12 @@ vim.opt.rtp:prepend(lazypath)
 require "general/mappings"
 require "general/settings"
 
+-- Enable crosshair
+vim.opt.cursorline = true
+vim.opt.cursorcolumn = true
+vim.cmd("highlight CursorLine cterm=underline guibg=NONE")
+vim.cmd("highlight CursorColumn cterm=underline guibg=NONE")
+
 -- Load individual plugins by their respective modules
 local plugin_plenary = require "plugins/plenary"  -- Utility functions for Lua
 local plugin_icons = require "plugins/icons"  -- Icons for file type and other UI elements
