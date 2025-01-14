@@ -575,6 +575,9 @@ This section covers basic operations to ensure your NeoVim journey begins as smo
 16. **Show Error**
     <br />
     Press `<leader>`, then type `l` + `e`.
+17. **Vertical Character Selection**
+    <br />
+    Hold `CTRL`, then type `g` to select characters vertically, creating a columnar selection.
     
 <div align="right">
   
