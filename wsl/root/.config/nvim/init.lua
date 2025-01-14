@@ -48,6 +48,8 @@ local plugin_scrollbar = require "plugins/scrollbar"  -- Scrollbar enhancements
 local plugin_dressing = require "plugins/dressing"  -- Better UI for pickers (e.g., lists, menus)
 local plugin_todo = require "plugins/todo"  -- Plugin for managing todo comments
 local plugin_dbee = require "plugins/dbee"  -- Database management plugin
+local plugin_highlight_cursorword = require "plugins/highlight-cursorword"
+local plugin_multi_visual = require "plugins/multi-visual"
 local theme = require "general/theme" -- Load theme
 
 -- Set up all the plugins using lazy.nvim
@@ -79,7 +81,9 @@ require("lazy").setup({
   plugin_scrollbar,
   plugin_dressing,
   plugin_todo,
-  plugin_dbee
+  plugin_dbee,
+  plugin_highlight_cursorword,
+  plugin_multi_visual
 })
 
 -- Load individual LSP (Language Server Protocol) configurations
